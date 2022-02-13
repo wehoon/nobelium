@@ -77,25 +77,10 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <rect
-                    width="24"
-                    height="24"
-                    className="fill-current text-black dark:text-white"
-                  />
-                  <rect width="24" height="24" fill="url(#paint0_radial)" />
-                  <defs>
-                    <radialGradient
-                      id="paint0_radial"
-                      cx="0"
-                      cy="0"
-                      r="1"
-                      gradientUnits="userSpaceOnUse"
-                      gradientTransform="rotate(45) scale(39.598)"
-                    >
-                      <stop stopColor="#CFCFCF" stopOpacity="0.6" />
-                      <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
-                    </radialGradient>
-                  </defs>
+                  <g id="surface1">
+                    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(19.607843%,20%,20%);fill-opacity:1;" d="M 17.609375 18 L 6.390625 18 C 2.878906 18 0.03125 15.152344 0.03125 11.640625 C 0.03125 8.128906 2.878906 5.28125 6.390625 5.28125 L 17.609375 5.28125 C 21.121094 5.28125 23.96875 8.128906 23.96875 11.640625 C 23.96875 15.152344 21.121094 18 17.609375 18 Z M 6.390625 6.734375 C 3.707031 6.734375 1.53125 8.910156 1.53125 11.59375 C 1.53125 14.277344 3.707031 16.453125 6.390625 16.453125 L 17.609375 16.453125 C 20.292969 16.453125 22.46875 14.277344 22.46875 11.59375 C 22.46875 8.910156 20.292969 6.734375 17.609375 6.734375 Z M 6.390625 6.734375 "/>
+                    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(19.607843%,20%,20%);fill-opacity:1;" d="M 13.53125 11.59375 C 13.53125 13.640625 15.1875 15.300781 17.234375 15.300781 C 19.28125 15.300781 20.941406 13.640625 20.941406 11.59375 C 20.941406 9.546875 19.28125 7.890625 17.234375 7.890625 C 15.1875 7.890625 13.53125 9.546875 13.53125 11.59375 Z M 13.53125 11.59375 "/>
+                  </g>
                 </svg>
               </div>
             </a>
