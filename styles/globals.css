@@ -118,7 +118,7 @@ nav {
   user-select: none;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 896px) {
   .sticky-nav-full {
     @apply max-w-full border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;
   }
