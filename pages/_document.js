@@ -99,6 +99,16 @@ class MyDocument extends Document {
             <meta name="theme-color" content={BLOG.appearance === 'dark' ? BLOG.darkBackground : BLOG.lightBackground} />
               )
           }
+          <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?087771a7950895cb405c47438012d7da";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+          </script>
+
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
