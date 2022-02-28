@@ -7,7 +7,7 @@ class MyDocument extends Document {
     return { ...initialProps }
   }
 
-  const getAnalyticsTag = () => {
+  getAnalyticsTag = () => {
     return {
       __html: `
       var _hmt = _hmt || [];
