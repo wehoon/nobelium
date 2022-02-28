@@ -4,14 +4,14 @@ import CJK from '@/lib/cjk'
 
 const getAnalyticsTag = () => {
   return {
-    __html: `
+      __html: `
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?087771a7950895cb405c47438012d7da";
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
-    })();`,
+    })();`
   }
 }
 class MyDocument extends Document {
