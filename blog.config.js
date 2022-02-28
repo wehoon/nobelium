@@ -47,7 +47,7 @@ const BLOG = {
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: ''
+      repo: 'https://github.com/wehoon/blog-comment'
     },
     cusdisConfig: {
       appId: '', // data-app-id
