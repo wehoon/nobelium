@@ -4,7 +4,7 @@ import CJK from '@/lib/cjk'
 
 const getAnalyticsTag = () => {
   return {
-      __html: `
+    __html: `
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
